@@ -1,0 +1,92 @@
+.parent-comp {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.parent-comp label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.parent-comp input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.parent-comp button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.parent-comp button:hover {
+    background-color: #0056b3;
+}
+
+.parent-comp ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.movie-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.movie-item li {
+    flex-grow: 1;
+}
+
+.movie-item input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.movie-item button {
+    margin-left: 10px;
+    background-color: #dc3545;
+}
+
+.movie-item button:hover {
+    background-color: #c82333;
+}
+
+.movie-item button:nth-child(4) {
+    background-color: #ffc107;
+}
+
+.movie-item button:nth-child(4):hover {
+    background-color: #e0a800;
+}
+
+.movie-item button:nth-child(5) {
+    background-color: #28a745;
+}
+
+.movie-item button:nth-child(5):hover {
+    background-color: #218838;
+}
+
+.movie-item button:nth-child(6) {
+    background-color: #6c757d;
+}
+
+.movie-item button:nth-child(6):hover {
+    background-color: #5a6268;
+}
